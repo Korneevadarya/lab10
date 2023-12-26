@@ -1,8 +1,8 @@
 
 import typer
-from my_package.module1 import calculate_a_recursive
-from my_package.module2 import get_values
-from my_package.module3 import unique_combinations
+from my_packege.module1 import calculate_a_recursive
+from my_packege.module2 import get_values
+from my_packege.module3 import unique_combinations
 
 app = typer.Typer()
 typer.echo(f"список модулей")
