@@ -6,14 +6,7 @@ def unique_values(func):
         return list(set(values))
 
     return wrapper
-
+    
 @unique_values
-def get_values():
+def get_values(a):
     return a
-a=[]
-
-b = int (input ("Введите размер массива:"))
-for i in range (b):
-    a.append (int (input ()))
-
-print(get_values())
